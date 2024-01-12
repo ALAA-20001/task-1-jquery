@@ -1,0 +1,18 @@
+#cycler{position:relative;
+    max-width: 500px;
+    margin: auto;
+}
+#cycler img{position:absolute;
+    z-index:1;
+    width: 90%;
+    height: 400px;
+    margin: 50px auto;
+box-shadow: 0px 0px 10px 3px grey;
+overflow: hidden;
+   
+   
+}
+
+
+#cycler img.active{z-index:3}
+
